@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ii-signer"
+version = "0.0.1"
+description = "Verification of Internet Identity signatures and stuff"
+authors = ["Victor Porton <porton.victor@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
